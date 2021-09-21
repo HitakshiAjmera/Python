@@ -1,0 +1,23 @@
+#7	Write at least 10 program to demonstrate usage of  classes and Objects in Python
+
+class Info:
+  def __init__(self, name, branch):
+    self.name = name
+    self.branch = branch
+  def func(self):
+    print("Hello i am ", self.name)
+    print("Branch ",self.branch)
+O = Info("Hitakshi Ajmera","CI")
+O.func()
+"""OUTPUT:-
+Hello i am Hitakshi Ajmera
+Branch CI
+"""
+
+class abc:
+  x = 79
+Ob = abc()
+print(Ob.x)
+"""OUTPUT:-
+79
+"""
